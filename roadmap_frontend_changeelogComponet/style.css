@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 16px;
+    width: 100%;
+}
+h1, p{
+    padding: 26px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    height: 100%;
+}
+.fechas{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    color: gray;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.timeLine{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+}
+.containerLine{
+    height: 100%;
+}
+.puntos{
+    position: absolute;
+    height:100%;
+    width: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.punto{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+.line{
+    background-color: black;
+    height: 100%;
+    width: 5px;
+    height: 100%;
+    border-radius: 50px;
+}
+.concepto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    font-weight: 600;
+}
+.btn{
+    padding: 16px;
+    border: none;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}

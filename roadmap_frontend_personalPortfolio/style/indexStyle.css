@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2rem;
+   height: 100px;
+}
+.nav div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav div a{
+    font-size: large;
+}
+.nav div a:hover{
+    color: blue;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+}
+.header{
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+}
+.header h1{
+    font-size: 3rem;
+}
+.header h1, .header p{
+    padding: 15px;
+}
+.container{
+    padding: 16px;
+    display: flex;
+    width: 100%;
+}
+.container aside{
+    padding: 16px;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+aside h3, aside p, aside ul{
+    padding-bottom: 15px;
+}
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.enlaces a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces a:hover{
+    color: cornflowerblue;
+}
+.cursiva{
+    font-style: italic;
+}
+.enlaces-contacto{
+    padding-bottom: 15px;
+}
+@media(max-width: 480px){
+    body{
+        margin: 16px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 2rem;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .nav div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .nav div a:active{
+    color:cornflowerblue;
+    }
+    .header h1{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container aside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .enlaces{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .enlaces a{
+        color: black;
+    }
+    .enlaces a:active{
+        color: darkcyan;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+

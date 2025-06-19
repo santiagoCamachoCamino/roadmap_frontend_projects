@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 2rem;
+   height: 100px;
+}
+.nav div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav div a{
+    font-size: large;
+}
+.nav div a:hover{
+    color: blue;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+}
+.header{
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+}
+.header h1, .header h3, .header p{
+    padding: 15px;
+}
+.container{
+    padding: 16px;
+    display: flex;
+    width: 100%;
+}
+.container aside{
+    padding: 16px;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+aside h3, aside p{
+    padding-bottom: 15px;
+}
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.enlaces a{
+    text-decoration: none;
+}
+.cursiva{
+    font-style: italic;
+}
+
