@@ -6,4 +6,5 @@ En este proyecto, estoy dando estilo a la estructura HTML que creé previamente 
 Se me proporcionaron mockups aproximados de cómo debería verse la estructura tanto en dispositivos móviles como en escritorio. En esta etapa, no me enfoco en los detalles visuales como colores, fondos o decoraciones. El propósito es lograr una estructura bien definida y adaptable a distintos tamaños de pantalla, siguiendo fielmente el diseño base del mockup.
 
 ¡[personal-portfolio](https://github.com/santiagoCamachoCamino/roadmap_frontend_projects/blob/main/roadmap_frontend_personalPortfolio/personalPortfolio_preview.png)
+
 https://roadmap.sh/projects/portfolio-website
