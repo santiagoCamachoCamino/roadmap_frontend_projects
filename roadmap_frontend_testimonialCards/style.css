@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vh;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px;
+    gap: 16px;
+}
+.testimonial{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 24px;
+}
+.testimonial-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+}
+.contTest1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    padding: 16px;
+    width: 100%;
+}
+.cuadro-dialogo{
+    color: white;
+    background-color: black;
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.triangulo-dialogo{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid black;
+    bottom: 0;
+    left: 25px;
+}
+.contTest1-1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    gap: 16px;
+}
+.contTest1-1 div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.contTest1-1 div p, .contTest1-1 div h4, .contTest2 div h4, .contTest2 div p{
+    margin: 0;
+    padding: 0;
+}
+.testimonial-2{
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+.contTest2{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.contTest2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.taylor{
+    border-radius: 16px;
+    width: 40%;
+    height: 100%;
+}
+.contTest-3{
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    padding: 28px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+
+}
+.grey{
+    color: grey;
+}
+.slider-card{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+    border: 2px solid black;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.slider-photos{
+    display: flex;
+    flex-direction: column;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+.dua, .sabrina{
+    width: 60px;
+    height: 60px;
+    opacity: 0.6;
+}
