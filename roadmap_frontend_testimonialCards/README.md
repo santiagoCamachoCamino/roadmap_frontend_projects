@@ -7,3 +7,4 @@ El objetivo principal de este ejercicio es practicar y reforzar mis conocimiento
 Se me proporcionó un mockup aproximado como referencia. A partir de él, trabajo en replicar la estructura y disposición de las tarjetas de manera que sean visualmente claras y responsivas, más allá de los detalles de diseño.
 
 ![testimonilaCard-preview](https://github.com/santiagoCamachoCamino/roadmap_frontend_projects/blob/main/roadmap_frontend_testimonialCards/testimonal-preview.png)
+https://roadmap.sh/projects/testimonial-cards
