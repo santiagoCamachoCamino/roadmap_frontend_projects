@@ -7,4 +7,4 @@ El propósito principal de este ejercicio es practicar técnicas de posicionamie
 
 Se me proporcionó un mockup aproximado del componente como referencia. A partir de él, construyo la estructura del datepicker enfocándome en su apariencia visual y responsividad, sin preocuparme aún por la funcionalidad interactiva.
 
-![datepicker-preview](roadmap_frontend_datepickerUI\datepicker-preview.png)
+![datepicker-preview](https://github.com/santiagoCamachoCamino/roadmap_frontend_projects/blob/main/roadmap_frontend_datepickerUI/datepicker-preview.png)
