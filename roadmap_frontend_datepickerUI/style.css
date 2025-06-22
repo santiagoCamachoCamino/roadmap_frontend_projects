@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 100vh;
+
+}
+.contenedor-dataPicker{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px;
+}
+.fecha{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+    font-size: 2rem;
+}
+.fecha input{
+    padding: 10px;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 2rem;
+    height: auto;
+}
+.fecha input::placeholder{
+    font-size: 2rem;
+}
+.fecha button {
+    padding: 16px;
+    width: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+.fecha button i{
+    font-size: 2rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 3rem;
+}
+.diasSemana{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    justify-content: space-between;
+}
+table{
+    width: 100%;;
+}
+table, tr, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: right;
+}
+tr, td{
+    font-size: 2rem;
+    height:80px;
+    padding: 16px;
+}
