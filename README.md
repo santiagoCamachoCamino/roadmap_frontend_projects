@@ -14,3 +14,14 @@ Buenas prácticas de desarrollo y estructura de código.
 
 Este repositorio está en constante crecimiento, así que seguiré añadiendo más proyectos a medida que avance en el roadmap. ¡Siéntete libre de explorar y contribuir!
 
+### Enlaces a los proyectos de Roadmap Frontend
+Single - Page CV: https://roadmap.sh/projects/single-page-cv
+
+Basic HTML WebSite: https://roadmap.sh/projects/basic-html-website
+
+Personal Portfolio: https://roadmap.sh/projects/portfolio-website
+
+ChangeLog Component: https://roadmap.sh/projects/changelog-component
+
+Testimonial Cards: https://roadmap.sh/projects/testimonial-cards
+
