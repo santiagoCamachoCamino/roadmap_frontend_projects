@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+}
+.formulario{
+    padding: 16px;
+    width:50% ;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1.3rem;
+    position: relative;
+    font-weight: bold;
+    color: hsla(200,0%,0%,.7);
+}
+.campo input{
+    height: 2rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 2px solid gray; 
+    background-color: transparent;
+}
+.campo button{
+    position: absolute;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    top: 65%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: scale ease-in 0.5s;
+}
+.campo button:hover{
+    scale: 1.1;
+}
+.error{
+    font-size: 1rem;
+    color: red;
+}
+.btn-update{
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    background-color: black;
+    padding: 8px;
+}
+.input:focus, button:focus{
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
+.contenedor aside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 16px;
+}
+.contenedor-circulo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 8px solid cadetblue;
+}
+.contenedor-circulo span{
+    position: absolute;
+    font-weight: bold;
+    top: 40%;
+    left: 30%;
+    font-size: 3rem;
+
+}
+.tareas{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}

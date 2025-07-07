@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="formulario">
+            <form action="">
+                <div class="campo">
+                    <label for="name">Full Name</label>
+                    <input class="error-input" type="text" id="name" name="name" aria-required="true" aria-describedby="error-name" required>
+                    <span id="error-name" role="alert" class="error"></span>
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input class="error-input" type="email" id="emial" name="email" aria-required="true" aria-describedby="error-email" required>
+                    <span id="error-email" role="alert" class="error">Emial incorrecto</span>
+                </div>
+                <div class="campo">
+                    <label for="password">Enter Password</label>
+                    <input class="error-input" type="password" id="password" name="password" aria-required="true" aria-describedby="error-password" required>
+                    <button aria-label="Ver contraseña" aria-pressed="false"><i class="fa-solid fa-eye"></i></button>
+                    <span id="error-password" role="alert" class="error"></span>
+                </div>
+                <div class="campo">
+                    <label for="password">Confirm Password</label>
+                    <input class="error-input" type="password" id="password" name="password" aria-required="true" aria-describedby="error-password" required>
+                    <button aria-label="Ver contraseña" aria-pressed="false"><i class="fa-solid fa-eye"></i></button>
+                    <span id="error-password" role="alert" class="error"></span>
+                </div>
+                <button aria-pressed="true" class="btn-update">Update Profile</button>
+            </form> 
+        </div>
+        <aside>
+            <div class="contenedor-circulo">
+                <div class="circulo"></div>
+                <span>65%</span>
+            </div>
+            <h2>Profile Completeness</h2>
+            <div class="tareas">
+                <label><input type="checkbox" name="tareas" value="cretate">Create account</label>
+                <label><input type="checkbox" name="tareas" value="update">Update roadmap Profress</label>
+                <label><input type="checkbox" name="tareas" value="setUp">Set up public profile</label>
+                <label><input type="checkbox" name="tareas" value="complete">Complete your first project</label>
+                <label><input type="checkbox" name="tareas" value="invite">Invite your friends</label>
+
+            </div>
+        </aside>
+    </section>
+</body>
+</html>
